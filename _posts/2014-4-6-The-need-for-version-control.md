@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Migration from Publify to Jekyll!
+title: The need for version control
 ---
 
 <p>Version control, also called Revision control and Source control is a tool that I would say is absolutely required. Version control systems are essential for any kind of distributed, collaborative development or individual projects. Have you ever?</p>
