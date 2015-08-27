@@ -16,41 +16,41 @@ title: RequireJS a must for every web developer
 <p>We’ll create a file main.js file that is used for initialization, and will look like this</p>
 
 ```
-<p>// Filename: main.js</p>
+// Filename: main.js
 
 // Require.js allows us to configure shortcut alias
 // There usage will become more apparent further along in the tutorial.
 requirejs.config({
     //By default load any module IDs from js
     baseUrl: 'js',
-    //except, if the module ID starts with "app",
+    //except, if the module ID starts with 'app',
     //load it from the js/app directory. paths
     //config is relative to the baseUrl, and
-    //never includes a ".js" extension since
+    //never includes a '.js' extension since
     //the paths config could be for a directory.
     paths: {
-        JQuery: ‘lib/jquery.min',
-  Backbone: ‘lib/backbone’,
-  Underscore: ‘lib/underscore’
+        JQuery: 'lib/jquery.min',
+  Backbone: 'lib/backbone',
+  Underscore: 'lib/underscore'
     }
 });
 ```
 
 <p>In the above example, app is the directory/subdirectory where your javascript will be written.</p>
 ```
-<p>// Filename: app/talkback.js</p>
+// Filename: app/talkback.js
 
 // the file prints some text.
 Define([‘jquery’].function($){
-  $(“#letstalk”).text(‘What’s going on buddy?’);
+  $('#letstalk').text('What’s going on buddy?');
 });
 ```
 <p>Instead of adding all scripts to our index.html file, we’ll only add</p>
 ```
-<script data-main="js/main" src="js/require.js"></script>
+<script data-main='js/main' src='js/require.js'></script>
 <script>
 require([talkback], function(
-require([‘app/talkback’])
+require(['app/talkback'])
 ));
 </script>
 ```

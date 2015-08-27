@@ -18,16 +18,18 @@ title: Ruby, UNIX and Object Orientation
 <p>The class IO provides all the basic methods, such as read, write, gets, puts, readline, getc, and printf. This means with Ruby, we can write scripts in the console and do lots of things.</p>
 
 <p>For example, we can rename files in the Terminal using Ruby, and it’s basic code, we use the rename method:<p>
-
-<p>#!/usr/bin/ruby # Rename a file danogwok.txt to wishlist.txt File.rename( "danogwok.txt", "wishlist.txt" )<br/>
-Ruby provides support for many other I/O methods as mentioned above.<p>
+```
+#!/usr/bin/ruby # Rename a file danogwok.txt to wishlist.txt File.rename( "danogwok.txt", "wishlist.txt" )
+```
+<p>Ruby provides support for many other I/O methods as mentioned above.<p>
 
 <p>Another example is the “File Modes and Ownership”</p>
 
 <p>Using the chmod method, we can change permissions to files;</p>
-
-<p>#!/usr/bin/ruby file = File.new( "danogwok.txt", "w") file.chmod( 0755 )<br />
-There are many other ways Ruby provides for us to interact with the shell. These include open4, open, exec, system, etc.</p>
+```
+#!/usr/bin/ruby file = File.new( "danogwok.txt", "w") file.chmod( 0755 )
+```
+<p>There are many other ways Ruby provides for us to interact with the shell. These include open4, open, exec, system, etc.</p>
 
 <p><b>Object-Oriented Programming.</b></p>
 
