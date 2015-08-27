@@ -15,6 +15,7 @@ title: RequireJS a must for every web developer
 
 <p>We’ll create a file main.js file that is used for initialization, and will look like this</p>
 
+```
 <p>// Filename: main.js</p>
 
 // Require.js allows us to configure shortcut alias
@@ -33,22 +34,26 @@ requirejs.config({
   Underscore: ‘lib/underscore’
     }
 });
-<p>In the above example, app is the directory/subdirectory where your javascript will be written.</p>
+```
 
+<p>In the above example, app is the directory/subdirectory where your javascript will be written.</p>
+```
 <p>// Filename: app/talkback.js</p>
 
 // the file prints some text.
 Define([‘jquery’].function($){
   $(“#letstalk”).text(‘What’s going on buddy?’);
 });
+```
 <p>Instead of adding all scripts to our index.html file, we’ll only add</p>
-
+```
 <script data-main="js/main" src="js/require.js"></script>
 <script>
 require([talkback], function(
 require([‘app/talkback’])
 ));
 </script>
+```
 <p>That’s a very simple example of what RequireJS can do.</p>
 
 <p>You can read more at <a href="http://requirejs.org/docs/api.html" target="_blank">RequireJS Website</a></p>
