@@ -35,7 +35,7 @@ File:close(F).
 <p>Easy, huh?<br />
 To read the file from console, </p>
 ```
-{ok, G} = file:open("C:\\Users\\Daniel\\Desktop\\work\\erlang\\text.txt" ,read).
+{ok, G} = file:open("C:\\Users\\Daniel\\Desktop\\work\\erlang\\text.txt", read).
 io:get_line(G, "").
 ```
 <p>Why G, instead of F? F is already binded, remember in Erlang variables are bound to there values.
