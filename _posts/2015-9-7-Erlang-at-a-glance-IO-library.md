@@ -12,7 +12,9 @@ A few things about Erlang;</p>
 <li>Erlang uses functions, and every function must have an argument</li>
 <li>Erlang functions are closed/terminated with a 'dot'.</li>
 </ul>
-
+```
+<html></html>
+```
 <p>An example of constant variables in Erlang is, let’s write a list of atoms.</p>
 ```
 L = [cow, goats, chicken].
