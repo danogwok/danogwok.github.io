@@ -17,17 +17,15 @@ A few things about Erlang;<p>
 L = [cow, goats, chicken].
 L. 
 ```
-
-<p>Then we use the lists library to delete one value.</p>p>
+<p>Then we use the lists library to delete one value.</p>
 ```
 L = lists:delete(cow, L). 
 Will generate an error (** exception error: no match of right hand side value [cow,chicken]).
 ```
-<p>This is because variable L is already taken (bound), the correct code is;</p>p>
+<p>This is because variable L is already taken (bound), the correct code is;</p>
 ```
 D = lists:delete(cow, L). 
 ```
-
 <p>My favorite part, the IO library. Erlang is pretty straightforward when it comes to Creating, writing and reading files. For example to write a basic txt file, in your console write;<p>
 ```
 {ok, F} = file:open("C:\\Users\\Daniel\\Desktop\\work\\erlang\\text.txt" ,write).
