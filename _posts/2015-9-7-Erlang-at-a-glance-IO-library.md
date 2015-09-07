@@ -3,7 +3,7 @@ layout: post
 title: Erlang at a glance, IO library
 ---
 
-<p>For the past few weeks, I’ve been writing a bit of code in Erlang. For those who have no idea what Erlang is, it is a declarative functional programming language developed by Ericsson in 1986(it’s that old.) Erlang is awesome at concurrency, fault tolerance, scalability and that explains its frequent use in the telecom and networking sector.
+<p>For the past few weeks, I’ve been writing a bit of code in Erlang. For those who have no idea what Erlang is, it is a declarative functional programming language developed by Ericsson in 1986(it’s that old.) Erlang is a dynamically typed language that's awesome at concurrency, fault tolerance, scalability and that explains its frequent use in the telecom and networking sector.
 A few things about Erlang;</p>
 
 <ul>
