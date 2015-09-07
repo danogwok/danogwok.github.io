@@ -43,6 +43,7 @@ To unbind the variables, all we do is use the function f.</p>
 f(F).   %%unbinds F
 f(G).   %%unbinds G
 f().    %%to unbind all at once
+
 ```
 <p>
 Now, F and G are free variables.
