@@ -32,11 +32,10 @@ D = lists:delete(cow, L).
 io:format(F, '~s ~n', ['This is my first Erlang text file']).
 File:close(F).
 ```
-<p>Easy, huh?
-To read the file from console; </p>
+<p>Easy, huh? To read the file from console; </p>
 ```
 {ok, G} = file:open("C:\\Users\\Daniel\\Desktop\\work\\erlang\\text.txt" ,read).
-io:get_line(G, "").
+
 ```
 <p>Why G, instead of F? F is already bound, remember in Erlang variables are bound to there values.
 To unbind the variables, all we do is use the function f.</p>
