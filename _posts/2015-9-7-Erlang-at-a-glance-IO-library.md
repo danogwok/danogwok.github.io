@@ -13,7 +13,8 @@ A few things about Erlang;</p>
 <li>Erlang functions are closed/terminated with a 'dot'.</li>
 </ul>
 ```
-<html></html>
+class Dan
+end
 ```
 <p>An example of constant variables in Erlang is, let’s write a list of atoms.</p>
 ```
