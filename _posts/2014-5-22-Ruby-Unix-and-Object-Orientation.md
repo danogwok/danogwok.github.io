@@ -17,7 +17,7 @@ title: Ruby, UNIX and Object Orientation
 
 <p>The class IO provides all the basic methods, such as read, write, gets, puts, readline, getc, and printf. This means with Ruby, we can write scripts in the console and do lots of things.</p>
 
-<p>For example, we can rename files in the Terminal using Ruby, and it’s basic code, we use the rename method:<p>
+<p>For example, we can rename files in the Terminal using Ruby, and it’s basic code, we use the rename method;<p>
 ```
 #!/usr/bin/ruby # Rename a file danogwok.txt to wishlist.txt File.rename( "danogwok.txt", "wishlist.txt" )
 ```
