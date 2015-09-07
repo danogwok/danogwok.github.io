@@ -26,7 +26,7 @@ Will generate an error (** exception error: no match of right hand side value [c
 ```
 D = lists:delete(cow, L). 
 ```
-<p>My favorite part, the IO library. Erlang is pretty straightforward when it comes to Creating, writing and reading files. For example to write a basic txt file, in your console write;</p>
+<p>My favorite part, the IO library is pretty straightforward when it comes to Creating, writing and reading files in Erlang. For example to write a basic txt file, in your console write;</p>
 ```
 {ok, F} = file:open("C:\\Users\\Daniel\\Desktop\\work\\erlang\\text.txt" ,write).
 io:format(F, '~s ~n', ['This is my first Erlang text file']).
