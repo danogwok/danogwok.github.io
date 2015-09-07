@@ -37,14 +37,12 @@ File:close(F).
 {ok, G} = file:open("C:\\Users\\Daniel\\Desktop\\work\\erlang\\text.txt" ,read).
 io:get_line(G, "").
 ```
-<p>Why G, instead of F? F is already bound, remember in Erlang variables are bound to there values.
-To unbind the variables, all we do is use the function f; </p>
+<p>Why G, instead of F? F is already bound, remember in Erlang variables are bound to there values. To unbind the variables, all we do is use the function f; </p>
 ```
 f(F).   %%unbinds F
 f(G).   %%unbinds G
 f().    %%to unbind all at once
 ```
 <p>
-Now, F and G are free variables.
-Well, this is a really tiny glance into Erlang, I hope you pick up interest in the language.
+Now, F and G are free variables. Well, this is a really tiny glance into Erlang, I hope you pick up interest in the language.
 </p>
