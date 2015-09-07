@@ -15,6 +15,7 @@ A few things about Erlang;</p>
 
 <p>An example of constant variables in Erlang is, let’s write a list of atoms.</p>
 ```
+
 L = [cow, goats, chicken].
 L. 
 ```
