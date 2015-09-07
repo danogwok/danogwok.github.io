@@ -12,7 +12,7 @@ A few things about Erlang;<p>
 <li>Erlang functions are closed/terminated with a 'dot'</li>
 </ul>
 
-<p>An example of constant variables in Erlang is, let’s write a list of atoms.<p>
+<p>An example of constant variables in Erlang is, let’s write a list of atoms.</p>
 ```
 L = [cow, goats, chicken].
 L. 
@@ -26,7 +26,7 @@ Will generate an error (** exception error: no match of right hand side value [c
 ```
 D = lists:delete(cow, L). 
 ```
-<p>My favorite part, the IO library. Erlang is pretty straightforward when it comes to Creating, writing and reading files. For example to write a basic txt file, in your console write;<p>
+<p>My favorite part, the IO library. Erlang is pretty straightforward when it comes to Creating, writing and reading files. For example to write a basic txt file, in your console write;</p>
 ```
 {ok, F} = file:open("C:\\Users\\Daniel\\Desktop\\work\\erlang\\text.txt" ,write).
 io:format(F, “~s ~n”, [“This is my first Erlang text file”]).
@@ -39,14 +39,13 @@ To read the file from console, </p>
 io:get_line(G, "").
 ```
 <p>Why G, instead of F? F is already binded, remember in Erlang variables are bound to there values.
-To unbind the variables, all we do is use the function f.<p>
+To unbind the variables, all we do is use the function f.</p>
 ```
-f(F). unbinds F
-f(G). unbinds G
-%%to unbind all at once, just use the 
-f().
+f(F). %%unbinds F
+f(G). %%unbinds G
+f(). %%to unbind all at once
 ```
 <p>
 Now, F and G are free variables.<br />
 Well, this is a really tiny glance into Erlang, I hope you pick up interest in the language.
-<p>
+</p>
