@@ -14,9 +14,9 @@ A few things about Erlang;</p>
 </ul>
 
 <p>An example of constant variables in Erlang is, let’s write a list of atoms.</p>
-```
+{% highlight erl %}
 L = [cow, goats, chicken].
-L. 
+{% highlight %}
 ```
 <p>Then we use the lists library to delete one value.</p>
 ```
