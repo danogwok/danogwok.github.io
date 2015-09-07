@@ -33,7 +33,7 @@ io:format(F, '~s ~n', ['This is my first Erlang text file']).
 File:close(F).
 ```
 <p>Easy, huh?<br />
-To read the file from console, </p>
+To read the file from console; </p>
 ```
 {ok, G} = file:open("C:\\Users\\Daniel\\Desktop\\work\\erlang\\text.txt", read).
 io:get_line(G, "").
