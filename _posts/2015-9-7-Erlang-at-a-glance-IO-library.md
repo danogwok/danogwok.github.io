@@ -17,7 +17,7 @@ A few things about Erlang;</p>
 {% highlight erl %}
 L = [cow, goats, chicken].
 {% highlight %}
-```
+
 <p>Then we use the lists library to delete one value.</p>
 ```
 L = lists:delete(cow, L). 
