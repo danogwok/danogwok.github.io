@@ -3,8 +3,8 @@ layout: post
 title: Erlang at a glance, IO library
 ---
 
-<p>For the past few weeks, I’ve been writing a bit of code in Erlang. For those who have no idea what Erlang is, it is a declarative /functional language developed by Ericson in 1987(it’s that old.) Erlang is awesome at concurrency, fault tolerance, scalability and that explains its frequent use in the telecom and networking sector.<br />
-A few things about Erlang;<p>
+<p>For the past few weeks, I’ve been writing a bit of code in Erlang. For those who have no idea what Erlang is, it is a declarative /functional language developed by Ericsson in 1986(it’s that old.) Erlang is awesome at concurrency, fault tolerance, scalability and that explains its frequent use in the telecom and networking sector.<br />
+A few things about Erlang;</p>
 <ul>
 <li>All variables start with a capital letter</li>
 <li>Variables don’t change</li>
