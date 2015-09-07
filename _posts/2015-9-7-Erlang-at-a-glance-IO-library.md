@@ -38,12 +38,11 @@ File:close(F).
 io:get_line(G, "").
 ```
 <p>Why G, instead of F? F is already bound, remember in Erlang variables are bound to there values.
-To unbind the variables, all we do is use the function f.</p>
+To unbind the variables, all we do is use the function f;</p>
 ```
 f(F).   %%unbinds F
 f(G).   %%unbinds G
 f().    %%to unbind all at once
-
 ```
 <p>
 Now, F and G are free variables.
